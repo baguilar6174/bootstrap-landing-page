@@ -1,0 +1,93 @@
+.header-background {
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 46.875rem;
+    padding-bottom: 4.375rem;
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(50, 58, 69, .9)));
+    background-image: linear-gradient(180deg, rgba(50, 58, 69, .55), rgba(50, 58, 69, .74)), url('/src/images/bg.jpg');
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.sticky-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 1.25rem;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12, 32, 59, .5);
+}
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.625rem 0.375rem;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 1.375rem;
+    height: 0.125rem;
+    border: 0.0625rem;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    margin-top: .25rem;
+    width: 1.375rem;
+}
+
+.navbar-toggler span + span + span {
+    width: 1.375rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link .active {
+    color: $red;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: white;
+    margin-top: 11.25rem;
+    margin-bottom: .5rem;
+    min-height: 6.25rem;
+}

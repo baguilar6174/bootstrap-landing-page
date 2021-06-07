@@ -1,0 +1,118 @@
+.portfolio {
+    min-height: 48.875rem;
+    overflow: hidden;
+}
+
+.gallery {
+    min-height: 15.75rem;
+    background-position: 0px 0px;
+    background-size: cover;
+    opacity: 1;
+}
+
+.img-1 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg.jpg');
+}
+
+.img-2 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg1.jpg');
+}
+
+.img-3 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg2.jpg');
+}
+
+.img-4 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg3.jpg');
+}
+
+.img-5 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg4.jpg');
+}
+
+.img-6 {
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg5.jpg');
+}
+
+.text-left-block {
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.text-left-block .left-center-text {
+    display: table;
+    position: relative;
+    height: 100vh;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.text-left-block .left-center-text .left-center-part {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-left-block .left-center-text .left-center-part h2 {
+    font-weight: 500;
+}
+
+.team-section {
+    padding: 3rem 0rem 1rem 0rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.team-paragraph {
+    padding: 0rem 2rem 1rem 0rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.block-team {
+    margin: 1rem 0 0;
+}
+
+.block-team img {
+    width: 15rem;
+    object-fit: fill;
+}
+
+.block-team h3 {
+    margin-top: .9375rem;
+    font-size: 1.4rem;
+}
+
+.block-team small {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: $red;
+    font-style: italic;
+    margin-bottom: .625rem;
+}
+
+.block-team .paragraph {
+    padding: 0 3rem 0 0;
+}
+
+.block-team .social-media .fab,
+.block-team .social-media .fa {
+    margin: .25rem;
+    font-size: 1.125rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 1.875rem;
+    height: 1.875rem;
+    text-align: center;
+    padding-top: .3125rem;
+    color: $red;
+}

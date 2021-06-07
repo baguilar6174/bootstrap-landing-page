@@ -8,16 +8,243 @@
     <title>Landing Page</title>
     <!-- import css files -->
     <link rel="stylesheet" href="/dist/styles.css">
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/bc9c77379f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
+
+    <!-- Header and navbar -->
+    <header class="header-background">
+        <div id="nav" class="sticky-nav">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Bryan Aguilar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#aboutus">About us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="text-white nav-link dropdown-toggle" href="#services" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#services">Web design</a></li>
+                                    <li><a class="dropdown-item" href="#services">Marketing</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#services">Programming</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#team">team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn" type="submit">Get a quote</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <h1 class="heading">Landing Page Website</h1>
+    </header>
+    <!-- Header and navbar end -->
+
+    <!-- About us section -->
+    <section class="container-fluid" id="aboutus">
         <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati tenetur quos, corrupti recusandae enim expedita, laborum molestias minima id aut dolorem facilis voluptatibus minus. Amet.</p>
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+                <h1>About us</h1>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quasi sint
+                    facilis officiis veniam possimus? Voluptas itaque voluptate soluta et quibusdam nihil illo porro
+                    accusamus, corrupti labore totam vel omnis alias eius suscipit doloremque, perferendis ipsam
+                    blanditiis officia similique obcaecati sapiente? Nam repudiandae natus vel! Nobis sit labore fugiat
+                    ratione quaerat fuga esse quisquam voluptas, animi ab ducimus consectetur similique deleniti? Autem
+                    earum ea unde quo voluptatum doloribus repudiandae dolorum neque eveniet impedit, delectus veniam
+                    adipisci, dolore, nihil vitae nam ex itaque reiciendis eos nulla. Quos quasi consectetur blanditiis
+                    minus laboriosam. Nesciunt consequuntur ab fugiat incidunt nemo quibusdam quas vero.</p>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- About us section end -->
+
+    <!-- Services section -->
+    <section class="container-fluid" id="services">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+                <h1 class="service-section">What we do best</h1>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis placeat sit
+                    architecto quia excepturi perspiciatis sed inventore doloribus, accusantium veniam dolore quae odio,
+                    fugit expedita provident atque, autem perferendis.</p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 service-1">
+                        <i class="fa fa-magic"></i>
+                        <h1 class="service-title-1">Web design</h1>
+                        <p class="service-paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                            laudantium natus iusto vel distinctio. Ducimus deleniti beatae minus omnis voluptatibus!</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-6 service-2">
+                        <i class="fa fa-twitter"></i>
+                        <h1 class="service-title-2">Marketing</h1>
+                        <p class="service-paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                            laudantium natus iusto vel distinctio. Ducimus deleniti beatae minus omnis voluptatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 services-right">
+
+            </div>
+        </div>
+    </section>
+    <!-- Services section end -->
+
+    <!-- Team section -->
+    <section class="container-fluid" id="team">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6 portfolio">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-1"></div>
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-3"></div>
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-5"></div>
+                    <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-6"></div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+                <div class="row">
+                    <div class="text-left-block">
+                        <div class="left-center-text">
+                            <div class="left-center-part">
+                                <h2 class="team-section">Meet our team</h2>
+                                <p class="team-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                                    quibusdam fuga magnam aliquam saepe culpa, optio doloribus ut cumque, iste minima,
+                                    ratione officia nisi tempore!</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+                                        <img src="/src/images/image1.jpg" class="team-member" alt="">
+                                        <h3>Persona 1</h3>
+                                        <small>Programmer</small>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Sint, accusamus.</p>
+                                        <div class="social-media">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fa fa-twitter"></i>
+                                            <i class="fab fa-dribbble"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+                                        <img src="/src/images/image2.jpg" class="team-member" alt="">
+                                        <h3>Persona 2</h3>
+                                        <small>Programmer</small>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Sint, accusamus.</p>
+                                        <div class="social-media">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fa fa-twitter"></i>
+                                            <i class="fab fa-dribbble"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team section end -->
+
+    <!-- Contact section -->
+    <section class="container-fluid" id="contact">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6 contact-left">
+                <div class="text-left-block">
+                    <div class="left-center-text">
+                        <div class="left-center-part">
+                            <h2 class="contact-section">Get in Touch</h2>
+                            <p class="paragraph">We are here to help you <strong>Monday trough Saturday</strong></p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <form id="contact-form" name="contact-form" method="POST" data-name="Contact-form">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" id="name" class="form form-control" placeholder="Name" data-name="Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" id="email" class="form form-control" placeholder="Email" data-name="Email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="company" id="company" class="form form-control" placeholder="Company" data-name="Company">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="tel" name="phone" id="phone" class="form form-control" placeholder="Phone" data-name="Phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea name="message" id="message" class="form textarea form-control" placeholder="Message" data-name="Message" required></textarea>
+                                                </div>
+                                                <span class="sub-text">* Required</span>
+                                            </div>
+                                        </div>
+                                        <button type="submit" id="valid-form" class="btn btn-color">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <p class="copyright">Designed with love <i class="fas fa-heart"></i> by Bryan Aguilar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 contact-right">
+                
+            </div>
+        </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Back to top -->
+    <a href="#" class="goto"><i class="fas fa-chevron-up"></i></a>
+    <!-- Back to top end -->
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

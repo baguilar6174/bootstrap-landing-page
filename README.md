@@ -1,10 +1,6 @@
 # [Landing Page Boostrap 5]()
 
-This 
-
-## Description
-
-This... Bootstrap 5 will be used to customize the site. Your users should be able to:
+This project presents a landing page built and customized with Boostrap 5. The users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
@@ -43,9 +39,11 @@ npm i
 - Mobile-first Grid responsive to build layouts
 - Flexbox
 - Sizing (Viewports)
-- Navbar
+- Navbar menu
 - Import and custom Boostrap SCSS
-- Custom bootstrap variables
+- Custon SCSS properties
+- Custom Header + Navigation Bar
+- Scroll effect + Back to top button
 
 ## Author
 
@@ -59,6 +57,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Project status
 
+Currently this project contains all sections. Some details are being worked on in the responsive design.
 
+## Boostrap Landing Page
 
-## Testimonials Grid Page

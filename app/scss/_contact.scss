@@ -1,0 +1,113 @@
+.text-left-block {
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.text-left-block .left-center-text {
+    display: table;
+    position: relative;
+    height: 100vh;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.text-left-block .left-center-text .left-center-part {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-left-block .left-center-text .left-center-part h2 {
+    font-weight: 500;
+}
+
+.contact-right {
+    min-height: 46.875rem;
+    background-image: -webkit-gradient(linear, left, top, left bottom, from(rgba(12, 32, 59, .9)));
+    background-image: linear-gradient(180deg, rgba(12, 32, 59, .55), rgba(12, 32, 59, .74)), url('/src/images/bg5.jpg');
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.contact-section {
+    padding: 1rem 0 1rem 0;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.contact-left .paragraph {
+    padding: 0 3rem 0 0;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+#contact-form {
+    margin-top: 2.5rem;
+}
+
+#contact-form .form-control {
+    background: $darkaccent;
+    border: none;
+    border-radius: .3rem;
+    box-shadow: none;
+    font-weight: 300;
+    outline: medium none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    height: auto;
+    width: 100%;
+    color: white;
+    margin-bottom: 1rem;
+    transition: all .2s ease-in-out;
+    text-align: left;
+}
+
+#contact-form .form-control:hover,
+#contact-form .form-control:focus {
+    box-shadow: none;
+    background: #293039;
+}
+
+#contact-form .textarea .form-control {
+    min-height: 8rem;
+}
+
+#contact-form .sub-text {
+    color: #969da5;
+    position: absolute;
+    font-size: .9rem;
+    right: 5rem;
+}
+
+#contact-form #valid-form {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: none;
+    display: inline-block;
+}
+
+#contact-form #valid-form:hover {
+    background: #00e2c0;
+}
+
+.copyright {
+    position: absolute;
+    left: 5rem;
+    bottom: -45px;
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 5rem;
+    z-index: 999;
+}
