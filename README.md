@@ -1,4 +1,4 @@
-# [Landing Page Boostrap 5](https://bootstrap-landing.netlify.app/)
+# Landing Page Boostrap 5
 
 This project presents a landing page built and customized with Boostrap 5. The users should be able to:
 
